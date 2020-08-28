@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build('ale-baccia/example-app')
+        app = docker.build('06071990/example-app')
     }
 
     stage('Push image') {
